@@ -17,7 +17,7 @@ const Container = ({ id, title, description, imageUrl, isOpen, onClose, onClick 
             />
           </div>
 
-          {/* Title and Description */}
+          
           <div className="p-3 flex flex-col items-center text-center">
             <h3 className="text-md font-semibold mb-2">{title}</h3>
             <p className="text-gray-600 line-clamp-2 text-sm">{description}</p>
@@ -25,7 +25,7 @@ const Container = ({ id, title, description, imageUrl, isOpen, onClose, onClick 
         </div>
       </div>
 
-      {/* Modal / Full-screen preview */}
+      
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded w-full max-w-2xl h-full max-h-min relative">
