@@ -8,13 +8,13 @@ const About = () => {
         <div className="shadow-inner shadow-gray-500 m-2 p-5 bg-white">
 
         <p className="text-gray-700 text-lg leading-8 mb-6">
-          Welcome to <span className="font-semibold">HealthPlus Pharmacy</span>, 
+          Welcome to <span className="font-semibold"> Pharmacy</span>, 
           your trusted partner in health and wellness. We have been dedicated 
           to serving our community with high-quality pharmaceutical care and 
           personalized service for over a decade.
         </p>
         <p className="text-gray-700 text-lg leading-8 mb-6">
-          At HealthPlus Pharmacy, we offer a wide range of services, including 
+          At Pharmacy, we offer a wide range of services, including 
           prescription medications, over-the-counter drugs, health consultations, 
           and wellness products. Our experienced pharmacists are here to answer 
           your questions and ensure you receive the care and support you deserve.
@@ -26,7 +26,7 @@ const About = () => {
           lifestyle, we're here to help.
         </p>
         <p className="text-gray-700 text-lg leading-8 mb-6">
-          Thank you for choosing HealthPlus Pharmacy. Your health is our priority!
+          Thank you for choosing  Pharmacy. Your health is our priority!
         </p>
         <div className="text-center mt-8">
           <button className="bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium hover:bg-blue-700 transition">
