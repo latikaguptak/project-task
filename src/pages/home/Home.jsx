@@ -1,6 +1,6 @@
 
 
-import Header from "../../components/header/Header";
+
 import Section from "../../components/sections/Section";
 
 
@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className="">
-      <Header />
+   
       <div>
 
       

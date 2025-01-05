@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="relative w-full h-16 shadow-xl shadow-gray-400">
+    <header className="relative w-full h-16 shadow-xl shadow-gray-400 border-b-1 border-gray-900">
     
       <div
         className="absolute top-0 left-0 h-full w-full bg-blue-900 flex items-center px-4 z-10"
