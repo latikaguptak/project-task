@@ -1,18 +1,26 @@
-import Container from "../../components/container/Container";
+
+
 import Header from "../../components/header/Header";
-import { useState } from "react";
-import { containers } from "./../../components/data/data";
+import Section from "../../components/sections/Section";
+
 
 const Home = () => {
-  const [openModal, setOpenModal] = useState(null);
+  
 
   return (
     <div className="">
       <Header />
-      <section className="p-2">
+      <div>
+
+      
+      <Section/>
+      
+
+      </div>
+      {/* <section className="p-2">
         
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {containers.map((container, index) => (
+          {Data1.map((container, index) => (
             <Container
               key={index}
               {...container}
@@ -31,7 +39,9 @@ const Home = () => {
               className="w-full h-48 object-cover rounded-lg"
             />
           </div>
-      </section>
+      </section> */}
+      
+  
     </div>
   );
 };

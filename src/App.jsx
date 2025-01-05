@@ -1,13 +1,19 @@
-import Home from "./pages/home/Home"
+import { Outlet } from "react-router"
+import Footer from "./components/footer/Footer"
+
 
 function App() {
   
 
   return (
-    <div className="m-4">
-      <Home/>
-
+    <>
+    <div className="relative h-screen">
+      
+      <Outlet/>
     </div>
+    <Footer />
+
+    </>
   )
 }
 

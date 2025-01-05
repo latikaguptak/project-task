@@ -6,16 +6,16 @@ const Container = ({ id, title, description, imageUrl, isOpen, onClose, onClick 
       <div className="flex items-center justify-center">
         <div
           onClick={onClick}
-          className="bg-blue-200 rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform hover:scale-105 w-40 sm:w-48 md:w-52 p-6 lg:w-56 h-72 flex flex-col items-center "
+          className="bg-blue-200 rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform hover:scale-105 w-48 h-40 flex flex-col items-center "
         >
         
-          <div className="flex items-center justify-center w-full h-36">
+          {/* <div className="flex items-center justify-center w-full h-36">
             <img
               src={imageUrl}
               alt={title}
               className="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover"
             />
-          </div>
+          </div> */}
 
           
           <div className="p-3 flex flex-col items-center text-center">
