@@ -23,7 +23,7 @@ const About = () => {
           Our mission is to provide accessible and affordable healthcare 
           solutions to everyone. Whether you need assistance with managing 
           chronic conditions, immunizations, or advice on leading a healthier 
-          lifestyle, we're here to help.
+          lifestyle, we are here to help.
         </p>
         <p className="text-gray-700 text-lg leading-8 mb-6">
           Thank you for choosing  Pharmacy. Your health is our priority!

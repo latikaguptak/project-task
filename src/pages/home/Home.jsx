@@ -1,6 +1,7 @@
 
 
 
+import { Outlet } from "react-router";
 import Section from "../../components/sections/Section";
 
 
@@ -14,6 +15,7 @@ const Home = () => {
 
       
       <Section/>
+    
       
 
       </div>

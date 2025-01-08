@@ -17,11 +17,11 @@ const Section1 = () => {
             <Container
               key={index}
               {...container}
-              isOpen={openModal === index}
-              onClose={() => setOpenModal(null)}
-              onClick={() => setOpenModal(index)
+              // isOpen={openModal === index}
+              // onClose={() => setOpenModal(null)}
+              // onClick={() => setOpenModal(index)}
               
-              }
+              
             />
           ))}
         </div>
@@ -49,11 +49,11 @@ const Section1 = () => {
             <Container
               key={index}
               {...container}
-              isOpen={openModal === index}
-              onClose={() => setOpenModal(null)}
-              onClick={() => setOpenModal(index)
+              // isOpen={openModal === index}
+              // onClose={() => setOpenModal(null)}
+              // onClick={() => setOpenModal(index)
               
-              }
+              // }
             />
           ))}
         </div>
