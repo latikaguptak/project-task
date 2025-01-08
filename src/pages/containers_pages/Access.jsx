@@ -3,8 +3,8 @@ import ContainerHeader from '../../components/home_container_header/ContainerHea
 
 const Access = () => {
   return (
-    <div>
-      <ContainerHeader logo="" heading=" Access"/>
+    <div className='p-2'>
+      <ContainerHeader logo="access.png" heading=" Access"/>
     </div>
   )
 }

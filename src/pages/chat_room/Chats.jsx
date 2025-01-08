@@ -1,8 +1,11 @@
 import React from 'react'
+import ContainerHeader from '../../components/home_container_header/ContainerHeader'
 
 const Chats = () => {
   return (
-    <div>Chats</div>
+    <div className='p-2'>
+      <ContainerHeader logo="/chats.png" heading={"Chats"}/>
+    </div>
   )
 }
 
