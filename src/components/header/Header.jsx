@@ -1,6 +1,6 @@
 import { Grid2x2 } from "lucide-react";
 import { useContext, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MenuContext } from "../context/MenuContext";
 
 const Header = () => {
@@ -82,13 +82,16 @@ const Header = () => {
             &times;
           </button>
         </div>
+        
         <ul className="p-4 space-y-4">
           {state.menuItems.map((item, index) => (
             <li
               key={index}
               className="hover:bg-blue-700 px-4 py-2 rounded-md"
             >
+              <Link to={state.menuItemLinks[index]} className="text-white hover:underline">
               {item}
+              </Link>
             </li>
           ))}
         </ul>
