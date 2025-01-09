@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContainerHeader = ({logo, heading}) => {
   return (
-    <div>
+    <div className='mt-4'>
         <header className='flex items-center gap-2'>
         <logo>
           <img src={logo} alt="logo" className='h-10 w-10'/>
