@@ -5,7 +5,7 @@ const Container = ({ id, title, description, link, imageUrl, isOpen, onClose, on
   
   return (
     <>
-    <Link to={link}>
+    <Link to={link} >
       <div className="flex items-center justify-center">
         <div
           className="bg-blue-200 rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform hover:scale-105 w-48 h-40 flex flex-col items-center"
