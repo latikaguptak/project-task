@@ -14,6 +14,8 @@ import Policy from "./pages/containers_pages/Policy.jsx";
 import References from "./pages/containers_pages/References.jsx";
 import Chats from "./pages/chat_room/Chats";
 import { MenuProvider } from './components/context/MenuContext';
+import HomeItems from "./pages/home/HomeItems.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -65,8 +67,11 @@ const router = createBrowserRouter([
         path: "/Chats",
         element: <Chats />,
       },
+      {
+        path: "/homeitem1",
+        element: <HomeItems />,
+      },
     ],
-    fallback: <h1>Page not found</h1>,
   },
 ]);
 

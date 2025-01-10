@@ -26,8 +26,7 @@ const Header = () => {
           <Grid2x2 size={32} color="#1e3a8a" />
         </div>
         <img
-          src="https://image.similarpng.com/very-thumbnail/2022/01/Medical-health-logo-design-on-transparent-background-PNG.png"
-          alt="logo"
+src="/HeaderLogo.jpg "         alt="logo"
           className="h-8 w-auto"
         />
         <span className="text-xl font-bold ml-2 text-white">Project</span>
@@ -89,7 +88,7 @@ const Header = () => {
               key={index}
               className="hover:bg-blue-700 px-4 py-2 rounded-md"
             >
-              <Link to={state.menuItemLinks[index]} className="text-white hover:underline">
+              <Link to={state.menuItemLinks[index]}  className="text-white hover:underline" onClick={handleClick}>
               {item}
               </Link>
             </li>

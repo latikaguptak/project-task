@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "medicineName": "Paracetamol",
+      "createdDate": "2024-12-01",
+      "expiryDate": "2026-11-30",
+      "drugs": ["Acetaminophen"],
+      "price": 50.00,
+      "medicalUse": "Pain relief and fever reduction"
+    },
+    {
+      "id": 2,
+      "medicineName": "Amoxicillin",
+      "createdDate": "2023-09-15",
+      "expiryDate": "2025-09-14",
+      "drugs": ["Amoxicillin Trihydrate"],
+      "price": 120.00,
+      "medicalUse": "Bacterial infections"
+    },
+    {
+      "id": 3,
+      "medicineName": "Ibuprofen",
+      "createdDate": "2024-03-10",
+      "expiryDate": "2026-03-09",
+      "drugs": ["Ibuprofen"],
+      "price": 75.00,
+      "medicalUse": "Pain relief, inflammation, and fever"
+    },
+    {
+      "id": 4,
+      "medicineName": "Ciprofloxacin",
+      "createdDate": "2023-07-20",
+      "expiryDate": "2025-07-19",
+      "drugs": ["Ciprofloxacin Hydrochloride"],
+      "price": 150.00,
+      "medicalUse": "Bacterial infections"
+    },
+    {
+      "id": 5,
+      "medicineName": "Metformin",
+      "createdDate": "2024-01-05",
+      "expiryDate": "2025-12-31",
+      "drugs": ["Metformin Hydrochloride"],
+      "price": 200.00,
+      "medicalUse": "Type 2 diabetes management"
+    },
+    {
+      "id": 6,
+      "medicineName": "Omeprazole",
+      "createdDate": "2022-08-30",
+      "expiryDate": "2024-08-29",
+      "drugs": ["Omeprazole Sodium"],
+      "price": 60.00,
+      "medicalUse": "Acid reflux and ulcers"
+    },
+    {
+      "id": 7,
+      "medicineName": "Aspirin",
+      "createdDate": "2024-05-12",
+      "expiryDate": "2026-05-11",
+      "drugs": ["Acetylsalicylic Acid"],
+      "price": 40.00,
+      "medicalUse": "Pain relief, inflammation, and heart attack prevention"
+    },
+    {
+      "id": 8,
+      "medicineName": "Cetirizine",
+      "createdDate": "2023-11-22",
+      "expiryDate": "2025-11-21",
+      "drugs": ["Cetirizine Hydrochloride"],
+      "price": 25.00,
+      "medicalUse": "Allergy relief"
+    },
+    {
+      "id": 9,
+      "medicineName": "Doxycycline",
+      "createdDate": "2023-02-01",
+      "expiryDate": "2025-01-31",
+      "drugs": ["Doxycycline Hyclate"],
+      "price": 180.00,
+      "medicalUse": "Bacterial infections and acne"
+    },
+    {
+      "id": 10,
+      "medicineName": "Atorvastatin",
+      "createdDate": "2024-04-15",
+      "expiryDate": "2026-04-14",
+      "drugs": ["Atorvastatin Calcium"],
+      "price": 250.00,
+      "medicalUse": "Cholesterol and triglyceride control"
+    },
+    {
+      "id": 11,
+      "medicineName": "Clindamycin",
+      "createdDate": "2023-06-10",
+      "expiryDate": "2025-06-09",
+      "drugs": ["Clindamycin Phosphate"],
+      "price": 100.00,
+      "medicalUse": "Bacterial infections"
+    },
+    {
+      "id": 12,
+      "medicineName": "Ranitidine",
+      "createdDate": "2024-02-01",
+      "expiryDate": "2025-12-31",
+      "drugs": ["Ranitidine Hydrochloride"],
+      "price": 80.00,
+      "medicalUse": "Acid reflux and ulcers"
+    },
+    {
+      "id": 13,
+      "medicineName": "Azithromycin",
+      "createdDate": "2023-10-20",
+      "expiryDate": "2025-10-19",
+      "drugs": ["Azithromycin Dihydrate"],
+      "price": 300.00,
+      "medicalUse": "Bacterial infections"
+    },
+    {
+      "id": 14,
+      "medicineName": "Losartan",
+      "createdDate": "2024-07-01",
+      "expiryDate": "2026-06-30",
+      "drugs": ["Losartan Potassium"],
+      "price": 90.00,
+      "medicalUse": "High blood pressure"
+    },
+    {
+      "id": 15,
+      "medicineName": "Levothyroxine",
+      "createdDate": "2023-03-15",
+      "expiryDate": "2025-03-14",
+      "drugs": ["Levothyroxine Sodium"],
+      "price": 110.00,
+      "medicalUse": "Thyroid hormone replacement"
+    },
+    {
+      "id": 16,
+      "medicineName": "Hydroxychloroquine",
+      "createdDate": "2022-12-05",
+      "expiryDate": "2024-12-04",
+      "drugs": ["Hydroxychloroquine Sulfate"],
+      "price": 500.00,
+      "medicalUse": "Rheumatoid arthritis and malaria"
+    },
+    {
+      "id": 17,
+      "medicineName": "Metronidazole",
+      "createdDate": "2024-06-25",
+      "expiryDate": "2026-06-24",
+      "drugs": ["Metronidazole"],
+      "price": 95.00,
+      "medicalUse": "Bacterial and parasitic infections"
+    },
+    {
+      "id": 18,
+      "medicineName": "Pantoprazole",
+      "createdDate": "2023-08-10",
+      "expiryDate": "2025-08-09",
+      "drugs": ["Pantoprazole Sodium"],
+      "price": 70.00,
+      "medicalUse": "Acid reflux and ulcers"
+    },
+    {
+      "id": 19,
+      "medicineName": "Fluoxetine",
+      "createdDate": "2023-05-01",
+      "expiryDate": "2025-04-30",
+      "drugs": ["Fluoxetine Hydrochloride"],
+      "price": 220.00,
+      "medicalUse": "Depression and anxiety"
+    },
+    {
+      "id": 20,
+      "medicineName": "Salbutamol",
+      "createdDate": "2024-09-20",
+      "expiryDate": "2026-09-19",
+      "drugs": ["Salbutamol Sulfate"],
+      "price": 150.00,
+      "medicalUse": "Asthma and breathing disorders"
+    }
+  ]
+  
