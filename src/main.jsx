@@ -15,6 +15,8 @@ import References from "./pages/containers_pages/References.jsx";
 import Chats from "./pages/chat_room/Chats";
 import { MenuProvider } from './components/context/MenuContext';
 import HomeItems from "./pages/home/HomeItems.jsx";
+import CsvReader from "./pages/home/HomeItem2.jsx";
+import HomeItem3 from './pages/home/HomeItem3';
 
 
 const router = createBrowserRouter([
@@ -70,6 +72,14 @@ const router = createBrowserRouter([
       {
         path: "/homeitem1",
         element: <HomeItems />,
+      },
+      {
+        path: "/homeitem2",
+        element: <CsvReader />,
+      },
+      {
+        path: "/homeitem3",
+        element: <HomeItem3 />,
       },
     ],
   },

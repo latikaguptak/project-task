@@ -1,6 +1,8 @@
 import React from 'react'
 import Medicine  from './../../components/data/medicine.json';
 import ContainerHeader from '../../components/home_container_header/ContainerHeader';
+import MedicineChart from '../../components/charts/MedicineChart';
+import CsvReader from '../../components/csvfiles/CsvReader';
 const HomeItems = () => {
   return (
     <div>
@@ -30,6 +32,10 @@ const HomeItems = () => {
           ))}
         </tbody>
       </table>
+      </div>
+      <div>
+        {/* <MedicineChart/> */}
+  
       </div>
 
     </div>

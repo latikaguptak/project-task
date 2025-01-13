@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Header />
-    <div className="relative h-screen">
+    <div className="min-h-screen">
       
       <Outlet/>
     </div>
